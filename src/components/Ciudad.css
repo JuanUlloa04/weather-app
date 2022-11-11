@@ -1,0 +1,27 @@
+.ciudad {
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+}
+.nuevo {
+	padding: 15px;
+	width: 18rem;
+	border-radius: 15px;
+	border-color: transparent;
+	box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+	background: rgba(105, 105, 105, 0.084);
+	transition: all 0.3s;
+	backdrop-filter: blur(1px);
+}
+.nuevo:hover {
+	transform: scale(1.05);
+	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+}
+
+.title {
+	opacity: 0.9;
+	font-size: 35px;
+	color: #00f260;
+}
